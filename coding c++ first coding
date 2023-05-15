@@ -1,0 +1,30 @@
+#include<iostream>
+#include<conio.h>
+
+int main()
+{
+    float avg;
+    int cpp, eng, calcu, total;
+    char name[20], q;
+
+    std::cout << "Enter the name of student=";
+    std::cin >> name;
+    std::cout << "Enter the marks obtained in C++=";
+    std::cin >> cpp;
+    std::cout << "Enter the marks obtained in English=";
+    std::cin >> eng;
+    std::cout << "Enter the marks obtained in calculus=";
+    std::cin >> calcu;
+
+    total = cpp + eng + calcu;
+    avg = total / 3.0;
+
+    std::cout << "Name of student = " << name << std::endl;
+    
+    std::cout << "Total marks     = " << total << std::endl;
+    std::cout << "Average marks   = " << avg << std::endl;
+    std::cout << "Press any character to exit the program = ";
+    std::cin >> q;
+
+    getch();
+    return 0;
