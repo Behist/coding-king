@@ -1,0 +1,17 @@
+#include<iostream>
+#include<conio.h>
+
+int main()
+{
+    
+    char q;
+    int a, b, c;
+    a = 3;
+    b = 6;
+    c = 9;
+    c *= a + b;
+    std::cout << "Result = " << c << std::endl;
+    std::cout << "Press any character to exit the program = ";
+    std::cin >> q;
+    return 0;
+}
